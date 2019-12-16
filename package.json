@@ -1,0 +1,30 @@
+{
+    "name": "jarouche-light-theme",
+    "displayName": "jarouche-light-theme",
+    "description": "Light theme by Rodrigo Jarouche",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Jarouche Light Theme",
+                "uiTheme": "vs",
+                "path": "./themes/jarouche-light-theme.json"
+            },{
+              "label": "Jarouche Light Theme Alternative",
+              "uiTheme": "vs",
+              "path": "./themes/jarouche-light-theme1.json"
+            },
+            {
+              "label": "Jarouche Light Theme Inverted",
+              "uiTheme": "vs",
+              "path": "./themes/jarouche-light-themei.json"
+            }
+        ]
+    }
+}
