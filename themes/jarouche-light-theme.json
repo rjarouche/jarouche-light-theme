@@ -934,6 +934,11 @@
 			"settings": {
 				"foreground": "#800080"
 			}
-		}
+		},{
+      "scope": "support.function.js",
+      "settings": {
+        "foreground": "#FF0000"
+      }
+    }
 	]
 }
